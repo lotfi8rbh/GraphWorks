@@ -1,0 +1,70 @@
+function g = menuG()    
+        g = graph;
+        s = true;
+   while (s == true)
+
+    %disp('[1]>.créer une matrice d%adjacence vide : ');
+    %disp('[2]>.ajouter une arête au graphe : ');  
+    %disp('[3]>.supprimer une arête du graphe : ');
+    %disp('[4]>.ajouter un sommet au graphe : ');
+    %disp('[5]>.supprimer un sommet du graphe : ');
+    %disp('[6]>.afficher la matrice d%adjacence : ');
+    %disp('[7]>.calculer l%ordre du graphe : ');
+    %disp('[8]>.calculer les degrés des sommets du graphe : ');
+    %disp('[9]>.afficher le voisinage d%un sommet : ');
+    %disp('[10]>.afficher l%existence d’un chemin de longueurs L : ');
+    %disp('[11]>.afficher un cycle et un chemin eulérien : '); 
+    %disp('[12]>.Quitter : ');
+    %s = input ('votre choix svp :     ') ;
+    s=menu('MENU','construire un graph a 0','créer une matrice dadjacence vide','ajouter une arête au graphe.','supprimer une arête du graphe','ajouter un sommet au graphe.','supprimer un sommet du graphe.','afficher la matrice d%adjacence.','calculer lsordre du graphe','alculer les degrés des sommets du graphe.','Afficher le voisinage dun sommet','Afficher lexistence d,un chemin de longueurs L.','Affichage du graphe','Utiliser le graphe de l énoncer du devoir','manuelle dutulisation','Quitter');
+
+    switch(s)
+        case 1
+            disp('construire un graph a 0');
+            g=con_graph();
+            s = true;
+        case 2
+            matrix_a() ;
+            s = true;
+        case 3
+            g = Add_Edges(g) ;
+            s = true;
+        case 4
+            g = Remove_Edges(g) ;
+            s = true;
+        case 5
+            g = Add_Nodes(g) ;
+            s = true;
+        case 6
+            g = removenode(g) ;
+            s = true;
+        case 7
+            affich_Matrix(g) ;
+            s = true;
+        case 8
+            ordre(g) ;
+            s = true;
+        case 9
+            degree_Graph(g) ;
+            s = true;
+        case 10
+            voisinage (g) ;
+            s = true;
+        case 11
+            Path(g);
+           s = true;
+        case 12
+            plot(g)
+            s = true;
+        case 13
+            g = Devoir();
+            s = true;
+        case 14
+            disp('manuel d utulisation')
+            s = true;
+        case 15
+            s = false;
+    end
+   end
+   return 
+end
