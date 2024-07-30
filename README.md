@@ -45,4 +45,5 @@ This project is licensed under the [MIT](LICENSE) License.
 
 - **Wassim CHIKHI**
 - **wassim.chikhi@etu.u-paris.fr**
-- Links to other profiles: https://linktr.ee/chikhiwassim
+- **Lotfi RABAH**
+- **lotfirabah2@gmail.com**
