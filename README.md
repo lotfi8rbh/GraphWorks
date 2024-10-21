@@ -1,6 +1,6 @@
-# MathWorks - Graph Processing in MATLAB
+# GraphWorks - Graph Processing in MATLAB
 
-MathWorks is a MATLAB project for graph manipulation. It offers features such as adding/removing edges, adding/removing vertices, adding/removing weights to edges, displaying the adjacency matrix of a graph, creating graphs using adjacency matrices or manually, finding cycles in a graph, and calculating the length of a path.
+GraphWorks is a MATLAB project for graph manipulation. It offers features such as adding/removing edges, adding/removing vertices, adding/removing weights to edges, displaying the adjacency matrix of a graph, creating graphs using adjacency matrices or manually, finding cycles in a graph, and calculating the length of a path.
 
 ## Key Features
 
